@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -e
+set -u
+
+BROWSER="${BROWSER:-open}"
+
+if [ $# -eq 0 ]; then
+  "$BROWSER" 'https://duckduckgo.com'
+else
+  args="$*"
+  search="${args// /+}"
+  "$BROWSER" "https://duckduckgo.com/?q=$search"
+fi
