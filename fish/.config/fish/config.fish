@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-set -gx EDITOR vim 
+set -gx EDITOR nvim 
 
 abbr gf "git fetch"
 abbr gb "git branch"
@@ -21,7 +21,7 @@ alias gov "git for-each-ref --sort=-committerdate refs/remotes/origin/ --format=
 abbr xq "xbps-query -Rs"
 abbr xi "sudo xbps-install -Su"
 abbr xr "sudo xbps-remove -R"
-abbr xl "xbps-query -l | awk '{ print $2 }' | xargs xbps-uhelper getpkgname"
+abbr xl "xbps-query -l | awk '{ print \$2 }' | xargs xbps-uhelper getpkgname"
 
 fish_add_path ~/.bin
 ls ~/.bin

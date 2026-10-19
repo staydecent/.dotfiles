@@ -1,0 +1,5 @@
+# .keystrings
+
+# FU CAPS LOCK
+keycode 1 = Escape
+keycode 58 = Escape

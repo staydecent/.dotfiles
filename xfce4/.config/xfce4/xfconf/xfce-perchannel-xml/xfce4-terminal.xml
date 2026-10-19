@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="font-use-system" type="bool" value="false"/>
+  <property name="font-name" type="string" value="Hack Nerd Font Mono 15"/>
+
+
+  <property name="color-foreground" type="string" value="#cad3f5"/>
+  <property name="color-background" type="string" value="#24273a"/>
+  <property name="color-background-vary" type="bool" value="false"/>
+
+  <property name="color-bold" type="string" value=""/>
+  <property name="color-bold-use-default" type="bool" value="true"/>
+  <property name="color-bold-is-bright" type="bool" value="true"/>
+
+  <property name="color-cursor-foreground" type="string" value="#181926"/>
+  <property name="color-cursor" type="string" value="#f4dbd6"/>
+  <property name="color-cursor-use-default" type="bool" value="false"/>
+
+  <property name="color-selection" type="string" value="#cad3f5"/>
+  <property name="color-selection-background" type="string" value="#5b6078"/>
+  <property name="color-selection-use-default" type="bool" value="false"/>
+
+  <property name="color-palette" type="string" value="#494d64;#ed8796;#a6da95;#eed49f;#8aadf4;#f5bde6;#8bd5ca;#b8c0e0;#5b6078;#ed8796;#a6da95;#eed49f;#8aadf4;#f5bde6;#8bd5ca;#a5adcb"/>
+  <property name="color-use-theme" type="bool" value="false"/>
+
+  <property name="scrolling-bar" type="string" value="TERMINAL_SCROLLBAR_NONE"/>
+  <property name="title-mode" type="string" value="TERMINAL_TITLE_APPEND"/>
+  <property name="encoding" type="string" value=""/>
+  <property name="binding-backspace" type="string" value="TERMINAL_ERASE_BINDING_AUTO"/>
+  <property name="binding-delete" type="string" value="TERMINAL_ERASE_BINDING_AUTO"/>
+  <property name="binding-ambiguous-width" type="string" value="TERMINAL_AMBIGUOUS_WIDTH_BINDING_NARROW"/>
+
+  <property name="tab-activity-color" type="string" value="#f5a97f"/>
+
+  <property name="misc-borders-default" type="bool" value="true"/>
+  <property name="misc-show-unsafe-paste-dialog" type="bool" value="false"/>
+  <property name="misc-menubar-default" type="bool" value="false"/>
+  <property name="misc-default-geometry" type="string" value="90x30"/>
+  <property name="misc-toolbar-default" type="bool" value="false"/>
+  <property name="misc-mouse-autohide" type="bool" value="true"/>
+
+</channel>
