@@ -22,7 +22,7 @@ echo "[*] Updating system..."
 xbps-install -Syu
 
 echo "[*] Installing base packages..."
-xbps-install -Sy \
+xbps-install -Syu \
     apparmor \
     fish-shell \
     fzy \
