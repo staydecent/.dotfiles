@@ -1,0 +1,9 @@
+# Programs that will run after Openbox has started
+# https://openbox.org/help/Autostart
+
+#hsetroot ~/wallpaper.png &
+
+picom -b &
+polybar &
+dunst &
+redshift

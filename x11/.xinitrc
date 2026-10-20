@@ -2,4 +2,4 @@
 setxkbmap -option caps:escape &
 
 # WM
-exec bspwm
+exec $(which openbox-session)

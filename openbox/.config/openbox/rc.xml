@@ -527,6 +527,11 @@
         <command>jgmenu_run</command>
       </action>
     </keybind>
+    <keybind key="C-Escape">
+      <action name="Execute">
+        <command>jgmenu_run</command>
+      </action>
+    </keybind>
     <keybind key="Print">
       <action name="Execute">
         <startupnotify>
