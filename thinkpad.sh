@@ -67,12 +67,12 @@ xbps-install -Syu \
     font-adobe-source-code-pro \
     font-inter \
     jgmenu \
+    openbox \
+    obconf \
     mousepad \
     picom \
     polybar \
-    scrot \
-    st \
-    thunar \
+    Thunar \
     xfce4-terminal
 
 echo "[*] Setting console font to \"Lat2-Terminus16\"..."
