@@ -2,7 +2,7 @@
 
 <channel name="xfce4-terminal" version="1.0">
   <property name="font-use-system" type="bool" value="false"/>
-  <property name="font-name" type="string" value="Hack Nerd Font Mono 15"/>
+  <property name="font-name" type="string" value="Source Code Pro 9"/>
 
 
   <property name="color-foreground" type="string" value="#cad3f5"/>

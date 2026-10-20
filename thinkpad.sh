@@ -65,6 +65,7 @@ xbps-install -Syu \
     "$VIDEO_DRIVER" \
     dunst \
     font-adobe-source-code-pro \
+    font-cozette \
     font-inter \
     jgmenu \
     openbox \
