@@ -63,11 +63,16 @@ echo "[*] Installing packages for X11 with $VIDEO_DRIVER..."
 xbps-install -Syu \
     xorg-minimal \
     "$VIDEO_DRIVER" \
-    bemenu \
-    bspwm \
+    dunst \
+    font-adobe-source-code-pro \
+    font-inter \
+    jgmenu \
+    mousepad \
     picom \
     polybar \
-    sxhkd \
+    scrot \
+    st \
+    thunar \
     xfce4-terminal
 
 echo "[*] Setting console font to \"Lat2-Terminus16\"..."
@@ -101,13 +106,15 @@ fi
 
 stow bash
 stow bin
-stow bspwm
+stow dunst
 stow fish
+stow jgmenu
 stow nvim
+stow openbox
 stow picom
 stow polybar
 stow redshift
-stow sxhkd
+# stow sxhkd
 stow tty
 stow wget
 stow x11
