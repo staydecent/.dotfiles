@@ -74,33 +74,11 @@ nnoremap <leader>e :buffer <C-z>
 nnoremap <leader>o :e %:h/<C-z>
 nnoremap <leader>n :e %:h/
 
-" vim-plug
-"call plug#begin('~/.data/plugged')
-"
-"Plug 'tpope/vim-surround'           " cs, ds, S
-"Plug 'tpope/vim-commentary'         " gcc, gc
-"Plug 'christoomey/vim-system-copy'  " cP, cV
-"
-"Plug 'ervandew/supertab'
-"Plug 'terryma/vim-multiple-cursors' " <C-n>
-"Plug 'mattn/emmet-vim'              " <C-f>,
-"
-"Plug 'SirVer/ultisnips'             " snippet engine
-"Plug 'honza/vim-snippets'           " community snippets
-"
-"Plug 'junegunn/seoul256.vim'
-"Plug 'pangloss/vim-javascript'
-"Plug 'MaxMEllon/vim-jsx-pretty'
-"
-"call plug#end()
-
-let g:user_emmet_leader_key='<C-f>'
-
 " colorscheme settings
 syntax enable
 syntax on
-set background=dark
-colorscheme default
+set background=light
+colorscheme peachpuff
 filetype plugin indent on
 
 " status line

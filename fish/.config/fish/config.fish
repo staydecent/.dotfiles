@@ -18,10 +18,5 @@ alias gca "git commit -a"
 alias gfp "git fetch --prune"
 alias gov "git for-each-ref --sort=-committerdate refs/remotes/origin/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
 
-abbr xq "xbps-query -Rs"
-abbr xi "sudo xbps-install -Su"
-abbr xr "sudo xbps-remove -R"
-abbr xl "xbps-query -l | awk '{ print \$2 }' | xargs xbps-uhelper getpkgname"
-
 fish_add_path ~/.bin
 ls ~/.bin
