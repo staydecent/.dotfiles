@@ -1,0 +1,46 @@
+{
+	"theme": "auto",
+	"ignored_packages":
+	[
+	],
+	"color_scheme": "Breakers.sublime-color-scheme",
+	"dark_color_scheme": "Mariana.sublime-color-scheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
+	"index_files": true,
+	"font_size": 10,
+	"folder_exclude_patterns": ["public", ".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*"],
+	"added_words":
+	[
+		"it’s",
+		"chakras",
+		"ajna",
+		"Sacral",
+		"Chiron",
+		"synchronicities",
+		"liminal",
+		"unreceptive",
+	],
+	"ignored_words":
+	[
+		"Here’s",
+		"It’s",
+		"Life’s",
+		"There’s",
+		"You’re",
+		"body’s",
+		"can’t",
+		"doesn’t",
+		"don’t",
+		"isn’t",
+		"it’s",
+		"let’s",
+		"that’s",
+		"there’s",
+		"they’ll",
+		"they’re",
+		"what’s",
+		"you’re",
+	],
+	"dark_theme": "Adaptive.sublime-theme",
+	"light_theme": "Adaptive.sublime-theme",
+}
