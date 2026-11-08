@@ -18,5 +18,12 @@ alias gca "git commit -a"
 alias gfp "git fetch --prune"
 alias gov "git for-each-ref --sort=-committerdate refs/remotes/origin/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
 
+
+# macOS - TODO: check dirs exist first?
+fish_add_path "/Applications/Sublime Text.app/Contents/SharedSupport/bin"
+fish_add_path /opt/homebrew/sbin
+fish_add_path /opt/homebrew/bin
+
+# userspace
 fish_add_path ~/.bin
 ls ~/.bin
