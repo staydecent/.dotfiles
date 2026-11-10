@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+set -e
+set -u
+
+# Usage:
+#   pass a file name (image) and get it's aspect ratio back
+# ImageMagick needs to be installed.
+
+if [ ! $# -eq 1 ]; then
+  echo 'aspect-ratio takes one argument' 1>&2
+  exit 1
+elif [ ! -e "$1" ]; then
+  echo "$1 doesn't exist" 1>&2
+  exit 1
+fi
+
+# Recursive greatest common divisor
+gcd() {
+  local a=$1
+  local b=$2
+
+  if (( b )); then
+    gcd "$b" $(( a % b ))
+  else
+    echo "$a"
+  fi
+}
+
+wh=$(magick identify -format "%w %h" "$1") # "w h"
+w="${wh% *}"
+h="${wh#* }"
+
+divisor=$(gcd "$w" "$h")
+
+if (( divisor == 0 )); then
+  echo "Error: width and height cannot both be 0" >&2
+  exit 1
+fi
+
+echo "$(( w / divisor )):$(( h / divisor ))"
